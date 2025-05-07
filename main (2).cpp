@@ -14,6 +14,8 @@ int main()
  float altura; //declaro la segunda variable de tipo float 
  float area; //declaro la tercera variable de tipo float 
 
+    cout << "este programa va a calcular el area de un triangulo" <<endl; //le indica al usuario lo que hace el programa
+  
     cout << "Ingrese la base del triángulo: "; //solicito al usuario que ingrese la base del triangulo 
     cin >> base; // guarda el valor que ingreso el usuario en la variable base
 
