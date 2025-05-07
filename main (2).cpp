@@ -20,10 +20,9 @@ int main()
     cout << "Ingrese la altura del triángulo: "; //solicito al usuario que ingrese la altura del triangulo
     cin >> altura; //guarda el valor que ingreso el usuario en la variable altura
 
-    area = (base * altura) / 2;  // Calcula el área del triángulo multiplicando base por altura 
+    area = (base * altura) / 2;  // Calcula el área del triángulo multiplicando base por altura dividido 2 y guarda el resultado en la variable area
 
-    // Mostrar el resultado
-    cout << "El área del triángulo es: " << area << endl;
+    cout << "El área del triángulo es: " << area << endl; // Muestra el valor de la variable area
 
 
     return 0;
